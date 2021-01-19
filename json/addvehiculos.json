@@ -1,0 +1,242 @@
+[
+    {
+        "nro_placa": "WTU-655",
+        "id_linea": 12,
+        "modelo": "ModelS",
+        "fecha_ven_seguro": "2020-11-02 10:35:06",
+        "fecha_ven_tecnomecanica": "2020-09-29 07:02:48",
+        "fecha_ven_contratodo": "2020-07-05 09:00:16"
+    },
+    {
+        "nro_placa": "EBU-491",
+        "id_linea": 6,
+        "modelo": "ModelS",
+        "fecha_ven_seguro": "2020-11-17 02:42:28",
+        "fecha_ven_tecnomecanica": "2020-04-08 12:28:35",
+        "fecha_ven_contratodo": "2020-02-24 08:14:29"
+    },
+    {
+        "nro_placa": "IIW-437",
+        "id_linea": 18,
+        "modelo": "ModelX",
+        "fecha_ven_seguro": "2020-06-08 20:06:04",
+        "fecha_ven_tecnomecanica": "2020-09-28 02:45:01",
+        "fecha_ven_contratodo": "2020-06-28 12:04:14"
+    },
+    {
+        "nro_placa": "ELG-640",
+        "id_linea": 19,
+        "modelo": "Golf",
+        "fecha_ven_seguro": "2020-02-27 17:18:14",
+        "fecha_ven_tecnomecanica": "2020-06-29 15:37:25",
+        "fecha_ven_contratodo": "2020-11-02 21:24:57"
+    },
+    {
+        "nro_placa": "MJM-727",
+        "id_linea": 4,
+        "modelo": "ModelS",
+        "fecha_ven_seguro": "2020-07-21 07:49:05",
+        "fecha_ven_tecnomecanica": "2020-04-19 05:45:31",
+        "fecha_ven_contratodo": "2020-10-04 16:01:02"
+    },
+    {
+        "nro_placa": "BQZ-325",
+        "id_linea": 13,
+        "modelo": "Hilux",
+        "fecha_ven_seguro": "2020-02-07 00:27:45",
+        "fecha_ven_tecnomecanica": "2020-08-28 18:53:23",
+        "fecha_ven_contratodo": "2020-11-04 22:07:55"
+    },
+    {
+        "nro_placa": "WCD-622",
+        "id_linea": 6,
+        "modelo": "Hilux",
+        "fecha_ven_seguro": "2020-07-16 22:20:02",
+        "fecha_ven_tecnomecanica": "2020-06-24 00:55:00",
+        "fecha_ven_contratodo": "2020-09-10 04:43:22"
+    },
+    {
+        "nro_placa": "BVQ-876",
+        "id_linea": 11,
+        "modelo": "Hilux",
+        "fecha_ven_seguro": "2020-08-17 18:15:16",
+        "fecha_ven_tecnomecanica": "2020-07-20 08:31:02",
+        "fecha_ven_contratodo": "2020-01-25 20:45:59"
+    },
+    {
+        "nro_placa": "WXC-205",
+        "id_linea": 12,
+        "modelo": "Hilux",
+        "fecha_ven_seguro": "2020-05-13 08:46:49",
+        "fecha_ven_tecnomecanica": "2020-11-16 15:00:44",
+        "fecha_ven_contratodo": "2020-05-13 09:58:22"
+    },
+    {
+        "nro_placa": "WGD-644",
+        "id_linea": 6,
+        "modelo": "Corolla",
+        "fecha_ven_seguro": "2020-07-26 10:59:00",
+        "fecha_ven_tecnomecanica": "2020-04-21 13:02:28",
+        "fecha_ven_contratodo": "2020-11-12 22:42:20"
+    },
+    {
+        "nro_placa": "XRZ-008",
+        "id_linea": 8,
+        "modelo": "Corolla",
+        "fecha_ven_seguro": "2020-02-13 10:28:02",
+        "fecha_ven_tecnomecanica": "2020-10-28 21:40:00",
+        "fecha_ven_contratodo": "2020-11-09 02:38:01"
+    },
+    {
+        "nro_placa": "EIJ-263",
+        "id_linea": 12,
+        "modelo": "Corolla",
+        "fecha_ven_seguro": "2020-04-11 06:45:13",
+        "fecha_ven_tecnomecanica": "2020-08-03 19:17:02",
+        "fecha_ven_contratodo": "2020-06-17 11:05:17"
+    },
+    {
+        "nro_placa": "TTH-915",
+        "id_linea": 20,
+        "modelo": "Corolla",
+        "fecha_ven_seguro": "2020-03-21 17:02:49",
+        "fecha_ven_tecnomecanica": "2020-11-10 16:44:45",
+        "fecha_ven_contratodo": "2020-12-12 14:56:44"
+    },
+    {
+        "nro_placa": "RYO-776",
+        "id_linea": 19,
+        "modelo": "Corolla",
+        "fecha_ven_seguro": "2020-12-03 23:54:11",
+        "fecha_ven_tecnomecanica": "2020-10-28 14:52:57",
+        "fecha_ven_contratodo": "2020-08-02 15:33:40"
+    },
+    {
+        "nro_placa": "ZUF-219",
+        "id_linea": 15,
+        "modelo": "Corolla",
+        "fecha_ven_seguro": "2021-01-13 21:48:27",
+        "fecha_ven_tecnomecanica": "2020-07-11 15:57:26",
+        "fecha_ven_contratodo": "2020-06-11 04:55:19"
+    },
+    {
+        "nro_placa": "HZH-042",
+        "id_linea": 4,
+        "modelo": "Corolla",
+        "fecha_ven_seguro": "2020-09-19 15:15:01",
+        "fecha_ven_tecnomecanica": "2020-11-27 13:43:08",
+        "fecha_ven_contratodo": "2020-04-28 09:28:27"
+    },
+    {
+        "nro_placa": "SPL-343",
+        "id_linea": 7,
+        "modelo": "ModelX",
+        "fecha_ven_seguro": "2020-12-11 07:12:58",
+        "fecha_ven_tecnomecanica": "2020-12-14 17:05:41",
+        "fecha_ven_contratodo": "2020-11-05 07:44:56"
+    },
+    {
+        "nro_placa": "NRN-035",
+        "id_linea": 5,
+        "modelo": "ModelX",
+        "fecha_ven_seguro": "2020-04-19 12:40:22",
+        "fecha_ven_tecnomecanica": "2020-05-16 18:07:57",
+        "fecha_ven_contratodo": "2020-08-01 16:23:08"
+    },
+    {
+        "nro_placa": "HDO-317",
+        "id_linea": 16,
+        "modelo": "ModelX",
+        "fecha_ven_seguro": "2020-03-14 00:40:33",
+        "fecha_ven_tecnomecanica": "2020-06-13 23:34:15",
+        "fecha_ven_contratodo": "2020-10-03 02:16:51"
+    },
+    {
+        "nro_placa": "YDN-193",
+        "id_linea": 20,
+        "modelo": "ModelX",
+        "fecha_ven_seguro": "2020-05-06 01:00:16",
+        "fecha_ven_tecnomecanica": "2020-04-17 04:46:00",
+        "fecha_ven_contratodo": "2020-11-16 07:08:46"
+    },
+    {
+        "nro_placa": "EBU-716",
+        "id_linea": 1,
+        "modelo": "ModelS",
+        "fecha_ven_seguro": "2020-12-08 12:55:36",
+        "fecha_ven_tecnomecanica": "2020-08-16 18:55:15",
+        "fecha_ven_contratodo": "2020-09-26 17:35:54"
+    },
+    {
+        "nro_placa": "OXJ-153",
+        "id_linea": 20,
+        "modelo": "ModelS",
+        "fecha_ven_seguro": "2020-10-29 21:33:15",
+        "fecha_ven_tecnomecanica": "2020-12-29 15:22:48",
+        "fecha_ven_contratodo": "2020-02-19 13:19:57"
+    },
+    {
+        "nro_placa": "BNR-979",
+        "id_linea": 12,
+        "modelo": "ModelS",
+        "fecha_ven_seguro": "2020-08-10 11:33:31",
+        "fecha_ven_tecnomecanica": "2020-10-01 00:52:26",
+        "fecha_ven_contratodo": "2020-04-14 22:27:49"
+    },
+    {
+        "nro_placa": "IPE-188",
+        "id_linea": 18,
+        "modelo": "ModelS",
+        "fecha_ven_seguro": "2020-03-25 15:42:19",
+        "fecha_ven_tecnomecanica": "2020-10-08 06:28:10",
+        "fecha_ven_contratodo": "2020-02-17 06:29:42"
+    },
+    {
+        "nro_placa": "BMF-446",
+        "id_linea": 17,
+        "modelo": "ModelS",
+        "fecha_ven_seguro": "2020-06-26 08:27:00",
+        "fecha_ven_tecnomecanica": "2020-06-19 06:43:48",
+        "fecha_ven_contratodo": "2020-05-06 01:12:08"
+    },
+    {
+        "nro_placa": "ENQ-630",
+        "id_linea": 8,
+        "modelo": "Hilux",
+        "fecha_ven_seguro": "2020-04-30 03:27:10",
+        "fecha_ven_tecnomecanica": "2020-12-21 18:38:12",
+        "fecha_ven_contratodo": "2020-12-03 01:54:15"
+    },
+    {
+        "nro_placa": "QAK-219",
+        "id_linea": 6,
+        "modelo": "Hilux",
+        "fecha_ven_seguro": "2020-03-10 05:04:31",
+        "fecha_ven_tecnomecanica": "2020-08-31 08:47:45",
+        "fecha_ven_contratodo": "2020-09-14 18:11:23"
+    },
+    {
+        "nro_placa": "IBR-676",
+        "id_linea": 15,
+        "modelo": "Golf",
+        "fecha_ven_seguro": "2020-09-27 08:24:10",
+        "fecha_ven_tecnomecanica": "2020-05-10 16:15:53",
+        "fecha_ven_contratodo": "2020-09-07 06:08:02"
+    },
+    {
+        "nro_placa": "TSL-346",
+        "id_linea": 11,
+        "modelo": "Golf",
+        "fecha_ven_seguro": "2020-12-05 07:01:50",
+        "fecha_ven_tecnomecanica": "2020-05-14 21:16:30",
+        "fecha_ven_contratodo": "2020-08-21 00:39:21"
+    },
+    {
+        "nro_placa": "WCW-983",
+        "id_linea": 6,
+        "modelo": "Golf",
+        "fecha_ven_seguro": "2020-02-23 07:21:04",
+        "fecha_ven_tecnomecanica": "2020-08-06 10:40:21",
+        "fecha_ven_contratodo": "2020-07-26 18:08:38"
+    }
+]

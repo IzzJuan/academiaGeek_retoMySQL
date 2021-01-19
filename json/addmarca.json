@@ -1,0 +1,22 @@
+[
+    {
+        "desc_marca": "",
+        "activo": "S"
+    },
+    {
+        "desc_marca": "Tesla",
+        "activo": "S"
+    },
+    {
+        "desc_marca": "Fiat",
+        "activo": "N"
+    },
+    {
+        "desc_marca": "BMW",
+        "activo": "S"
+    },
+    {
+        "desc_marca": "Mercedes-benz",
+        "activo": "S"
+    }
+]

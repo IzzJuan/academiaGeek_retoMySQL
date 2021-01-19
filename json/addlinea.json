@@ -1,0 +1,102 @@
+[
+    {
+        "desc_linea": "1GYS3GEF9DR935535",
+        "id_marca": 1,
+        "activo": "S"
+    },
+    {
+        "desc_linea": "1G6AY5S34E0417116",
+        "id_marca": 1,
+        "activo": "N"
+    },
+    {
+        "desc_linea": "WA1EV94L57D155303",
+        "id_marca": 1,
+        "activo": "N"
+    },
+    {
+        "desc_linea": "5NPEB4AC4CH694232",
+        "id_marca": 1,
+        "activo": "S"
+    },
+    {
+        "desc_linea": "JTDJTUD34ED248064",
+        "id_marca": 2,
+        "activo": "S"
+    },
+    {
+        "desc_linea": "WBXPA73495W209005",
+        "id_marca": 2,
+        "activo": "N"
+    },
+    {
+        "desc_linea": "JTEBU4BF6CK365020",
+        "id_marca": 2,
+        "activo": "S"
+    },
+    {
+        "desc_linea": "WUAYU48H28K638424",
+        "id_marca": 2,
+        "activo": "S"
+    },
+    {
+        "desc_linea": "KM8NU4CC3BU799075",
+        "id_marca": 3,
+        "activo": "S"
+    },
+    {
+        "desc_linea": "WAUKG68E85A881004",
+        "id_marca": 3,
+        "activo": "S"
+    },
+    {
+        "desc_linea": "1VWAS7A31FC732562",
+        "id_marca": 3,
+        "activo": "S"
+    },
+    {
+        "desc_linea": "WAULFAFR8BA543582",
+        "id_marca": 3,
+        "activo": "S"
+    },
+    {
+        "desc_linea": "WBAEW53453P890195",
+        "id_marca": 4,
+        "activo": "N"
+    },
+    {
+        "desc_linea": "SCBDU3ZA7CC202133",
+        "id_marca": 4,
+        "activo": "S"
+    },
+    {
+        "desc_linea": "JN8CS1MU6EM709692",
+        "id_marca": 4,
+        "activo": "S"
+    },
+    {
+        "desc_linea": "5GADV231X7D027388",
+        "id_marca": 4,
+        "activo": "S"
+    },
+    {
+        "desc_linea": "5N1AA0NE7FN206459",
+        "id_marca": 5,
+        "activo": "N"
+    },
+    {
+        "desc_linea": "KMHTC6AD6EU171792",
+        "id_marca": 5,
+        "activo": "S"
+    },
+    {
+        "desc_linea": "WBAYA6C59ED976687",
+        "id_marca": 5,
+        "activo": "S"
+    },
+    {
+        "desc_linea": "KMHFG4JG2CA569077",
+        "id_marca": 5,
+        "activo": "N"
+    }
+]
