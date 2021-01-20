@@ -37,9 +37,25 @@ router.post('/rangovehiculos', async (req, res) => {
     res.send(row);
 });
 
-router.post('/rangovehiculos', async (req, res) => {
-    const { a, b } = req.body;
-    row = await connectionBD.query(`SELECT * FROM vehiculos WHERE modelo BETWEEN "${a}" and "${b}" ORDER BY modelo;`);
+router.post('/updateregistro', async (req, res) => {
+    const { activo, id } = req.body;
+    row = await connectionBD.query(`UPDATE tipo_linea set activo = "${activo}" WHERE id_linea = ${id};`);
+    res.send(row);
+});
+
+router.post('/eliminar_registro', async (req, res) => {
+    const { id } = req.body;
+    row = await connectionBD.query(`DELETE FROM tipo_marca WHERE id_marca = ${id};`);
+    res.send(row);
+});
+
+router.get('/todoslosregistros', async (req, res) => {
+    row = await connectionBD.query(`SELECT vehiculos.nro_placa,vehiculos.modelo,tipo_linea.desc_linea, tipo_marca.desc_marca FROM tipo_linea INNER JOIN vehiculos ON vehiculos.id_linea = tipo_linea.id_linea INNER JOIN tipo_marca ON tipo_marca.id_marca = tipo_linea.id_marca;`);
+    res.send(row);
+});
+
+router.get('/todoslosregistros_s', async (req, res) => {
+    row = await connectionBD.query(`SELECT vehiculos.nro_placa,vehiculos.modelo,tipo_linea.desc_linea, tipo_marca.desc_marca FROM tipo_linea INNER JOIN vehiculos ON vehiculos.id_linea = tipo_linea.id_linea INNER JOIN tipo_marca ON tipo_marca.id_marca = tipo_linea.id_marca WHERE tipo_linea.activo = 'S';`);
     res.send(row);
 });
 
