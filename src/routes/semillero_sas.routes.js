@@ -59,4 +59,14 @@ router.get('/todoslosregistros_s', async (req, res) => {
     res.send(row);
 });
 
+router.get('/suma_de_los_modelos', async (req, res) => {
+    row = await connectionBD.query(`SELECT modelo, count(modelo) AS Cantidad FROM vehiculos GROUP BY modelo;`);
+    res.send(row);
+});
+
+router.get('/prom_de_los_modelos', async (req, res) => {
+    row = await connectionBD.query(`SELECT AVG(Cantidad) FROM (SELECT modelo, count(modelo) AS Cantidad FROM vehiculos GROUP BY modelo) as T;`);
+    res.send(row);
+});
+
 module.exports = router;
