@@ -1,0 +1,423 @@
+{
+	"info": {
+		"_postman_id": "485ad0fd-3d70-41fe-a3f6-6df008c80ddb",
+		"name": "academiaGeek_mysql-node",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Checking API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Insertar registro en marca",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"desc_marca\" : \"Logan\",\r\n    \"activo\" : \"S\"\r\n}\r\n\r\n\r\n\r\n\r\n    \r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/addmarca",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"addmarca"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Insertar registro en linea",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"desc_linea\": \"KMHFG4JG2CA569077\",\r\n        \"id_marca\": 5,\r\n        \"activo\": \"N\"\r\n    }"
+				},
+				"url": {
+					"raw": "http://localhost:4000/addlinea",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"addlinea"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Insertar registro en vehiculos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"nro_placa\": \"WTU-655\",\r\n        \"id_linea\": 12,\r\n        \"modelo\": \"Jeffreys\",\r\n        \"fecha_ven_seguro\": \"2020-11-02 10:35:06\",\r\n        \"fecha_ven_tecnomecanica\": \"2020-09-29 07:02:48\",\r\n        \"fecha_ven_contratodo\": \"2020-07-05 09:00:16\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/addvehiculo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"addvehiculo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Insertar registros en marca",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"desc_marca\": \"\",\r\n        \"activo\": \"S\"\r\n    },\r\n    {\r\n        \"desc_marca\": \"Tesla\",\r\n        \"activo\": \"S\"\r\n    },\r\n    {\r\n        \"desc_marca\": \"Fiat\",\r\n        \"activo\": \"N\"\r\n    },\r\n    {\r\n        \"desc_marca\": \"BMW\",\r\n        \"activo\": \"S\"\r\n    },\r\n    {\r\n        \"desc_marca\": \"Mercedes-benz\",\r\n        \"activo\": \"S\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/addmarcas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"addmarcas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Insertar registros en lineas",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"desc_linea\": \"1GYS3GEF9DR935535\",\r\n        \"id_marca\": 1,\r\n        \"activo\": \"S\"\r\n    },\r\n    {\r\n        \"desc_linea\": \"1G6AY5S34E0417116\",\r\n        \"id_marca\": 1,\r\n        \"activo\": \"N\"\r\n    },\r\n    {\r\n        \"desc_linea\": \"WA1EV94L57D155303\",\r\n        \"id_marca\": 1,\r\n        \"activo\": \"N\"\r\n    },\r\n    {\r\n        \"desc_linea\": \"5NPEB4AC4CH694232\",\r\n        \"id_marca\": 1,\r\n        \"activo\": \"S\"\r\n    },\r\n    {\r\n        \"desc_linea\": \"JTDJTUD34ED248064\",\r\n        \"id_marca\": 2,\r\n        \"activo\": \"S\"\r\n    },\r\n    {\r\n        \"desc_linea\": \"WBXPA73495W209005\",\r\n        \"id_marca\": 2,\r\n        \"activo\": \"N\"\r\n    },\r\n    {\r\n        \"desc_linea\": \"JTEBU4BF6CK365020\",\r\n        \"id_marca\": 2,\r\n        \"activo\": \"S\"\r\n    },\r\n    {\r\n        \"desc_linea\": \"WUAYU48H28K638424\",\r\n        \"id_marca\": 2,\r\n        \"activo\": \"S\"\r\n    },\r\n    {\r\n        \"desc_linea\": \"KM8NU4CC3BU799075\",\r\n        \"id_marca\": 3,\r\n        \"activo\": \"S\"\r\n    },\r\n    {\r\n        \"desc_linea\": \"WAUKG68E85A881004\",\r\n        \"id_marca\": 3,\r\n        \"activo\": \"S\"\r\n    },\r\n    {\r\n        \"desc_linea\": \"1VWAS7A31FC732562\",\r\n        \"id_marca\": 3,\r\n        \"activo\": \"S\"\r\n    },\r\n    {\r\n        \"desc_linea\": \"WAULFAFR8BA543582\",\r\n        \"id_marca\": 3,\r\n        \"activo\": \"S\"\r\n    },\r\n    {\r\n        \"desc_linea\": \"WBAEW53453P890195\",\r\n        \"id_marca\": 4,\r\n        \"activo\": \"N\"\r\n    },\r\n    {\r\n        \"desc_linea\": \"SCBDU3ZA7CC202133\",\r\n        \"id_marca\": 4,\r\n        \"activo\": \"S\"\r\n    },\r\n    {\r\n        \"desc_linea\": \"JN8CS1MU6EM709692\",\r\n        \"id_marca\": 4,\r\n        \"activo\": \"S\"\r\n    },\r\n    {\r\n        \"desc_linea\": \"5GADV231X7D027388\",\r\n        \"id_marca\": 4,\r\n        \"activo\": \"S\"\r\n    },\r\n    {\r\n        \"desc_linea\": \"5N1AA0NE7FN206459\",\r\n        \"id_marca\": 5,\r\n        \"activo\": \"N\"\r\n    },\r\n    {\r\n        \"desc_linea\": \"KMHTC6AD6EU171792\",\r\n        \"id_marca\": 5,\r\n        \"activo\": \"S\"\r\n    },\r\n    {\r\n        \"desc_linea\": \"WBAYA6C59ED976687\",\r\n        \"id_marca\": 5,\r\n        \"activo\": \"S\"\r\n    },\r\n    {\r\n        \"desc_linea\": \"KMHFG4JG2CA569077\",\r\n        \"id_marca\": 5,\r\n        \"activo\": \"N\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/addlineas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"addlineas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Insertar registros en vehiculos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"nro_placa\": \"WTU-655\",\r\n        \"id_linea\": 12,\r\n        \"modelo\": \"ModelS\",\r\n        \"fecha_ven_seguro\": \"2020-11-02 10:35:06\",\r\n        \"fecha_ven_tecnomecanica\": \"2020-09-29 07:02:48\",\r\n        \"fecha_ven_contratodo\": \"2020-07-05 09:00:16\"\r\n    },\r\n    {\r\n        \"nro_placa\": \"EBU-491\",\r\n        \"id_linea\": 6,\r\n        \"modelo\": \"ModelS\",\r\n        \"fecha_ven_seguro\": \"2020-11-17 02:42:28\",\r\n        \"fecha_ven_tecnomecanica\": \"2020-04-08 12:28:35\",\r\n        \"fecha_ven_contratodo\": \"2020-02-24 08:14:29\"\r\n    },\r\n    {\r\n        \"nro_placa\": \"IIW-437\",\r\n        \"id_linea\": 18,\r\n        \"modelo\": \"ModelX\",\r\n        \"fecha_ven_seguro\": \"2020-06-08 20:06:04\",\r\n        \"fecha_ven_tecnomecanica\": \"2020-09-28 02:45:01\",\r\n        \"fecha_ven_contratodo\": \"2020-06-28 12:04:14\"\r\n    },\r\n    {\r\n        \"nro_placa\": \"ELG-640\",\r\n        \"id_linea\": 19,\r\n        \"modelo\": \"Golf\",\r\n        \"fecha_ven_seguro\": \"2020-02-27 17:18:14\",\r\n        \"fecha_ven_tecnomecanica\": \"2020-06-29 15:37:25\",\r\n        \"fecha_ven_contratodo\": \"2020-11-02 21:24:57\"\r\n    },\r\n    {\r\n        \"nro_placa\": \"MJM-727\",\r\n        \"id_linea\": 4,\r\n        \"modelo\": \"ModelS\",\r\n        \"fecha_ven_seguro\": \"2020-07-21 07:49:05\",\r\n        \"fecha_ven_tecnomecanica\": \"2020-04-19 05:45:31\",\r\n        \"fecha_ven_contratodo\": \"2020-10-04 16:01:02\"\r\n    },\r\n    {\r\n        \"nro_placa\": \"BQZ-325\",\r\n        \"id_linea\": 13,\r\n        \"modelo\": \"Hilux\",\r\n        \"fecha_ven_seguro\": \"2020-02-07 00:27:45\",\r\n        \"fecha_ven_tecnomecanica\": \"2020-08-28 18:53:23\",\r\n        \"fecha_ven_contratodo\": \"2020-11-04 22:07:55\"\r\n    },\r\n    {\r\n        \"nro_placa\": \"WCD-622\",\r\n        \"id_linea\": 6,\r\n        \"modelo\": \"Hilux\",\r\n        \"fecha_ven_seguro\": \"2020-07-16 22:20:02\",\r\n        \"fecha_ven_tecnomecanica\": \"2020-06-24 00:55:00\",\r\n        \"fecha_ven_contratodo\": \"2020-09-10 04:43:22\"\r\n    },\r\n    {\r\n        \"nro_placa\": \"BVQ-876\",\r\n        \"id_linea\": 11,\r\n        \"modelo\": \"Hilux\",\r\n        \"fecha_ven_seguro\": \"2020-08-17 18:15:16\",\r\n        \"fecha_ven_tecnomecanica\": \"2020-07-20 08:31:02\",\r\n        \"fecha_ven_contratodo\": \"2020-01-25 20:45:59\"\r\n    },\r\n    {\r\n        \"nro_placa\": \"WXC-205\",\r\n        \"id_linea\": 12,\r\n        \"modelo\": \"Hilux\",\r\n        \"fecha_ven_seguro\": \"2020-05-13 08:46:49\",\r\n        \"fecha_ven_tecnomecanica\": \"2020-11-16 15:00:44\",\r\n        \"fecha_ven_contratodo\": \"2020-05-13 09:58:22\"\r\n    },\r\n    {\r\n        \"nro_placa\": \"WGD-644\",\r\n        \"id_linea\": 6,\r\n        \"modelo\": \"Corolla\",\r\n        \"fecha_ven_seguro\": \"2020-07-26 10:59:00\",\r\n        \"fecha_ven_tecnomecanica\": \"2020-04-21 13:02:28\",\r\n        \"fecha_ven_contratodo\": \"2020-11-12 22:42:20\"\r\n    },\r\n    {\r\n        \"nro_placa\": \"XRZ-008\",\r\n        \"id_linea\": 8,\r\n        \"modelo\": \"Corolla\",\r\n        \"fecha_ven_seguro\": \"2020-02-13 10:28:02\",\r\n        \"fecha_ven_tecnomecanica\": \"2020-10-28 21:40:00\",\r\n        \"fecha_ven_contratodo\": \"2020-11-09 02:38:01\"\r\n    },\r\n    {\r\n        \"nro_placa\": \"EIJ-263\",\r\n        \"id_linea\": 12,\r\n        \"modelo\": \"Corolla\",\r\n        \"fecha_ven_seguro\": \"2020-04-11 06:45:13\",\r\n        \"fecha_ven_tecnomecanica\": \"2020-08-03 19:17:02\",\r\n        \"fecha_ven_contratodo\": \"2020-06-17 11:05:17\"\r\n    },\r\n    {\r\n        \"nro_placa\": \"TTH-915\",\r\n        \"id_linea\": 20,\r\n        \"modelo\": \"Corolla\",\r\n        \"fecha_ven_seguro\": \"2020-03-21 17:02:49\",\r\n        \"fecha_ven_tecnomecanica\": \"2020-11-10 16:44:45\",\r\n        \"fecha_ven_contratodo\": \"2020-12-12 14:56:44\"\r\n    },\r\n    {\r\n        \"nro_placa\": \"RYO-776\",\r\n        \"id_linea\": 19,\r\n        \"modelo\": \"Corolla\",\r\n        \"fecha_ven_seguro\": \"2020-12-03 23:54:11\",\r\n        \"fecha_ven_tecnomecanica\": \"2020-10-28 14:52:57\",\r\n        \"fecha_ven_contratodo\": \"2020-08-02 15:33:40\"\r\n    },\r\n    {\r\n        \"nro_placa\": \"ZUF-219\",\r\n        \"id_linea\": 15,\r\n        \"modelo\": \"Corolla\",\r\n        \"fecha_ven_seguro\": \"2021-01-13 21:48:27\",\r\n        \"fecha_ven_tecnomecanica\": \"2020-07-11 15:57:26\",\r\n        \"fecha_ven_contratodo\": \"2020-06-11 04:55:19\"\r\n    },\r\n    {\r\n        \"nro_placa\": \"HZH-042\",\r\n        \"id_linea\": 4,\r\n        \"modelo\": \"Corolla\",\r\n        \"fecha_ven_seguro\": \"2020-09-19 15:15:01\",\r\n        \"fecha_ven_tecnomecanica\": \"2020-11-27 13:43:08\",\r\n        \"fecha_ven_contratodo\": \"2020-04-28 09:28:27\"\r\n    },\r\n    {\r\n        \"nro_placa\": \"SPL-343\",\r\n        \"id_linea\": 7,\r\n        \"modelo\": \"ModelX\",\r\n        \"fecha_ven_seguro\": \"2020-12-11 07:12:58\",\r\n        \"fecha_ven_tecnomecanica\": \"2020-12-14 17:05:41\",\r\n        \"fecha_ven_contratodo\": \"2020-11-05 07:44:56\"\r\n    },\r\n    {\r\n        \"nro_placa\": \"NRN-035\",\r\n        \"id_linea\": 5,\r\n        \"modelo\": \"ModelX\",\r\n        \"fecha_ven_seguro\": \"2020-04-19 12:40:22\",\r\n        \"fecha_ven_tecnomecanica\": \"2020-05-16 18:07:57\",\r\n        \"fecha_ven_contratodo\": \"2020-08-01 16:23:08\"\r\n    },\r\n    {\r\n        \"nro_placa\": \"HDO-317\",\r\n        \"id_linea\": 16,\r\n        \"modelo\": \"ModelX\",\r\n        \"fecha_ven_seguro\": \"2020-03-14 00:40:33\",\r\n        \"fecha_ven_tecnomecanica\": \"2020-06-13 23:34:15\",\r\n        \"fecha_ven_contratodo\": \"2020-10-03 02:16:51\"\r\n    },\r\n    {\r\n        \"nro_placa\": \"YDN-193\",\r\n        \"id_linea\": 20,\r\n        \"modelo\": \"ModelX\",\r\n        \"fecha_ven_seguro\": \"2020-05-06 01:00:16\",\r\n        \"fecha_ven_tecnomecanica\": \"2020-04-17 04:46:00\",\r\n        \"fecha_ven_contratodo\": \"2020-11-16 07:08:46\"\r\n    },\r\n    {\r\n        \"nro_placa\": \"EBU-716\",\r\n        \"id_linea\": 1,\r\n        \"modelo\": \"ModelS\",\r\n        \"fecha_ven_seguro\": \"2020-12-08 12:55:36\",\r\n        \"fecha_ven_tecnomecanica\": \"2020-08-16 18:55:15\",\r\n        \"fecha_ven_contratodo\": \"2020-09-26 17:35:54\"\r\n    },\r\n    {\r\n        \"nro_placa\": \"OXJ-153\",\r\n        \"id_linea\": 20,\r\n        \"modelo\": \"ModelS\",\r\n        \"fecha_ven_seguro\": \"2020-10-29 21:33:15\",\r\n        \"fecha_ven_tecnomecanica\": \"2020-12-29 15:22:48\",\r\n        \"fecha_ven_contratodo\": \"2020-02-19 13:19:57\"\r\n    },\r\n    {\r\n        \"nro_placa\": \"BNR-979\",\r\n        \"id_linea\": 12,\r\n        \"modelo\": \"ModelS\",\r\n        \"fecha_ven_seguro\": \"2020-08-10 11:33:31\",\r\n        \"fecha_ven_tecnomecanica\": \"2020-10-01 00:52:26\",\r\n        \"fecha_ven_contratodo\": \"2020-04-14 22:27:49\"\r\n    },\r\n    {\r\n        \"nro_placa\": \"IPE-188\",\r\n        \"id_linea\": 18,\r\n        \"modelo\": \"ModelS\",\r\n        \"fecha_ven_seguro\": \"2020-03-25 15:42:19\",\r\n        \"fecha_ven_tecnomecanica\": \"2020-10-08 06:28:10\",\r\n        \"fecha_ven_contratodo\": \"2020-02-17 06:29:42\"\r\n    },\r\n    {\r\n        \"nro_placa\": \"BMF-446\",\r\n        \"id_linea\": 17,\r\n        \"modelo\": \"ModelS\",\r\n        \"fecha_ven_seguro\": \"2020-06-26 08:27:00\",\r\n        \"fecha_ven_tecnomecanica\": \"2020-06-19 06:43:48\",\r\n        \"fecha_ven_contratodo\": \"2020-05-06 01:12:08\"\r\n    },\r\n    {\r\n        \"nro_placa\": \"ENQ-630\",\r\n        \"id_linea\": 8,\r\n        \"modelo\": \"Hilux\",\r\n        \"fecha_ven_seguro\": \"2020-04-30 03:27:10\",\r\n        \"fecha_ven_tecnomecanica\": \"2020-12-21 18:38:12\",\r\n        \"fecha_ven_contratodo\": \"2020-12-03 01:54:15\"\r\n    },\r\n    {\r\n        \"nro_placa\": \"QAK-219\",\r\n        \"id_linea\": 6,\r\n        \"modelo\": \"Hilux\",\r\n        \"fecha_ven_seguro\": \"2020-03-10 05:04:31\",\r\n        \"fecha_ven_tecnomecanica\": \"2020-08-31 08:47:45\",\r\n        \"fecha_ven_contratodo\": \"2020-09-14 18:11:23\"\r\n    },\r\n    {\r\n        \"nro_placa\": \"IBR-676\",\r\n        \"id_linea\": 15,\r\n        \"modelo\": \"Golf\",\r\n        \"fecha_ven_seguro\": \"2020-09-27 08:24:10\",\r\n        \"fecha_ven_tecnomecanica\": \"2020-05-10 16:15:53\",\r\n        \"fecha_ven_contratodo\": \"2020-09-07 06:08:02\"\r\n    },\r\n    {\r\n        \"nro_placa\": \"TSL-346\",\r\n        \"id_linea\": 11,\r\n        \"modelo\": \"Golf\",\r\n        \"fecha_ven_seguro\": \"2020-12-05 07:01:50\",\r\n        \"fecha_ven_tecnomecanica\": \"2020-05-14 21:16:30\",\r\n        \"fecha_ven_contratodo\": \"2020-08-21 00:39:21\"\r\n    },\r\n    {\r\n        \"nro_placa\": \"WCW-983\",\r\n        \"id_linea\": 6,\r\n        \"modelo\": \"Golf\",\r\n        \"fecha_ven_seguro\": \"2020-02-23 07:21:04\",\r\n        \"fecha_ven_tecnomecanica\": \"2020-08-06 10:40:21\",\r\n        \"fecha_ven_contratodo\": \"2020-07-26 18:08:38\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/addvehiculos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"addvehiculos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Contar Registros",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/nroregistros",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"nroregistros"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "modelo máximo almacenado y el mínimo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/modelo-maxmin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"modelo-maxmin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "líneas repetidas por marca ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/lineasxmarca",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"lineasxmarca"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Vehiculos por fecha",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"init\": \"2020-05-06 01:12:08\",\r\n        \"end\": \"2020-09-10 04:43:22\"\r\n        \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/vehiculosfecha",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"vehiculosfecha"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vehículos por un rango de modelos ",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"a\": \"Corolla\",\r\n        \"b\": \"Hilux\"\r\n        \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/rangovehiculos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"rangovehiculos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UPDATE que permite modificar el estado de alguno de los registros",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"activo\" : \"N\",\r\n    \"id\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/updateregistro",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"updateregistro"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "eliminar un registro en tipo_marca",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 6\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/eliminar_registro",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"eliminar_registro"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": " consulta única con NRO_PLACA, MODELO, DESC_LINEA, DESC_MARCA;",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/todoslosregistros",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"todoslosregistros"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": " consulta única con NRO_PLACA, MODELO, DESC_LINEA, DESC_MARCA y activo en ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/todoslosregistros_s",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"todoslosregistros_s"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
