@@ -418,6 +418,44 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "suma de todos los modelos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/suma_de_los_modelos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"suma_de_los_modelos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "promedio de todos los modelos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/prom_de_los_modelos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"prom_de_los_modelos"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
